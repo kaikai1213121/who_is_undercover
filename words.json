@@ -1,0 +1,29 @@
+{
+  "word_pairs": [
+    {"civilian": "苹果", "undercover": "梨"},
+    {"civilian": "猫", "undercover": "狗"},
+    {"civilian": "牛奶", "undercover": "豆浆"},
+    {"civilian": "火车", "undercover": "高铁"},
+    {"civilian": "微信", "undercover": "QQ"},
+    {"civilian": "篮球", "undercover": "足球"},
+    {"civilian": "汉堡", "undercover": "披萨"},
+    {"civilian": "医生", "undercover": "护士"},
+    {"civilian": "大学", "undercover": "高中"},
+    {"civilian": "沙发", "undercover": "床"},
+    {"civilian": "咖啡", "undercover": "茶"},
+    {"civilian": "飞机", "undercover": "直升机"},
+    {"civilian": "口红", "undercover": "唇膏"},
+    {"civilian": "圣诞节", "undercover": "元旦"},
+    {"civilian": "超市", "undercover": "便利店"},
+    {"civilian": "蜘蛛侠", "undercover": "蝙蝠侠"},
+    {"civilian": "面包", "undercover": "馒头"},
+    {"civilian": "玫瑰", "undercover": "康乃馨"},
+    {"civilian": "警察", "undercover": "保安"},
+    {"civilian": "眼镜", "undercover": "墨镜"},
+    {"civilian": "手机", "undercover": "平板"},
+    {"civilian": "可乐", "undercover": "雪碧"},
+    {"civilian": "薯条", "undercover": "薯片"},
+    {"civilian": "洗衣机", "undercover": "洗碗机"},
+    {"civilian": "老师", "undercover": "教授"}
+  ]
+}

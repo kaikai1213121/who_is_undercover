@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e0e0e0;
+}
+
+#app {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.view {
+    display: none;
+}
+
+.view.active {
+    display: block;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 32px 24px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.subtitle {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: #5c6bc0;
+}
+
+input[type="text"]::placeholder {
+    color: #888;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.2s;
+    width: 100%;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #5c6bc0, #7c4dff);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #e53935, #d32f2f);
+    color: #fff;
+}
+
+.btn-danger:hover {
+    opacity: 0.9;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.player-list {
+    margin: 16px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.player-tag {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.player-tag.eliminated {
+    opacity: 0.4;
+    text-decoration: line-through;
+}
+
+.player-tag.vote-option {
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.player-tag.vote-option:hover {
+    background: rgba(92, 107, 192, 0.3);
+    border-color: #5c6bc0;
+}
+
+.player-tag.vote-option.voted {
+    background: rgba(92, 107, 192, 0.4);
+    border-color: #7c4dff;
+}
+
+.hint {
+    text-align: center;
+    color: #888;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.word-display {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.word-display .label {
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 8px;
+}
+
+.word-card {
+    display: inline-block;
+    background: linear-gradient(135deg, #5c6bc0, #7c4dff);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 12px;
+    letter-spacing: 2px;
+    min-width: 120px;
+}
+
+.countdown {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffab40;
+    margin: 16px 0;
+}
+
+.countdown #countdown-timer {
+    font-size: 56px;
+}
+
+.status-text {
+    text-align: center;
+    color: #81c784;
+    font-size: 15px;
+    margin-top: 12px;
+    min-height: 20px;
+}
+
+.result-box {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #fff;
+}
+
+.result-box .tie {
+    color: #ffab40;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.result-box .eliminated-name {
+    color: #ef5350;
+    font-weight: 700;
+}
+
+.result-box .role-text {
+    color: #7c4dff;
+    font-weight: 700;
+}
+
+.toast {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100px);
+    background: #e53935;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    white-space: nowrap;
+}
+
+.toast.show {
+    transform: translateX(-50%) translateY(0);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>谁是卧底</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- 大厅：加入游戏 -->
+        <div id="view-lobby" class="view active">
+            <div class="card">
+                <h1>谁是卧底</h1>
+                <p class="subtitle">输入你的群昵称，加入游戏</p>
+                <div class="input-group">
+                    <input type="text" id="nickname-input" placeholder="请输入群昵称" maxlength="12">
+                    <button id="btn-join" class="btn btn-primary">加入游戏</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 等待室：玩家列表 + 开始游戏 -->
+        <div id="view-waiting" class="view">
+            <div class="card">
+                <h2>等待玩家加入</h2>
+                <div id="player-list" class="player-list"></div>
+                <p class="hint">至少 4 名玩家可开始游戏</p>
+                <button id="btn-start" class="btn btn-primary">开始游戏</button>
+            </div>
+        </div>
+
+        <!-- 分词阶段：显示词语 + 操作按钮 -->
+        <div id="view-word" class="view">
+            <div class="card">
+                <h2>第 <span id="round-num">1</span> 轮</h2>
+                <div class="word-display">
+                    <p class="label">你的词语</p>
+                    <div id="my-word" class="word-card">???</div>
+                </div>
+                <div class="player-list" id="word-players"></div>
+                <div class="btn-group">
+                    <button id="btn-vote" class="btn btn-primary">开始本轮投票</button>
+                    <button id="btn-end" class="btn btn-danger">结束游戏</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 投票阶段 -->
+        <div id="view-voting" class="view">
+            <div class="card">
+                <h2>投票阶段</h2>
+                <div class="countdown">
+                    <span id="countdown-timer">15</span> 秒
+                </div>
+                <p class="hint">选择一名玩家投票（不能投自己）</p>
+                <div id="vote-list" class="player-list"></div>
+                <p id="vote-status" class="status-text"></p>
+            </div>
+        </div>
+
+        <!-- 投票结果 -->
+        <div id="view-result" class="view">
+            <div class="card">
+                <h2>投票结果</h2>
+                <div id="result-content" class="result-box"></div>
+                <p class="hint">5 秒后进入下一轮...</p>
+            </div>
+        </div>
+
+        <!-- 游戏结束 -->
+        <div id="view-ended" class="view">
+            <div class="card">
+                <h2>游戏已结束</h2>
+                <p>感谢参与！</p>
+                <button id="btn-back" class="btn btn-primary">返回大厅</button>
+            </div>
+        </div>
+
+        <!-- 错误提示 -->
+        <div id="toast" class="toast"></div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>

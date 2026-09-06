@@ -1,29 +1,4288 @@
 {
   "word_pairs": [
-    {"civilian": "苹果", "undercover": "梨"},
-    {"civilian": "猫", "undercover": "狗"},
-    {"civilian": "牛奶", "undercover": "豆浆"},
-    {"civilian": "火车", "undercover": "高铁"},
-    {"civilian": "微信", "undercover": "QQ"},
-    {"civilian": "篮球", "undercover": "足球"},
-    {"civilian": "汉堡", "undercover": "披萨"},
-    {"civilian": "医生", "undercover": "护士"},
-    {"civilian": "大学", "undercover": "高中"},
-    {"civilian": "沙发", "undercover": "床"},
-    {"civilian": "咖啡", "undercover": "茶"},
-    {"civilian": "飞机", "undercover": "直升机"},
-    {"civilian": "口红", "undercover": "唇膏"},
-    {"civilian": "圣诞节", "undercover": "元旦"},
-    {"civilian": "超市", "undercover": "便利店"},
-    {"civilian": "蜘蛛侠", "undercover": "蝙蝠侠"},
-    {"civilian": "面包", "undercover": "馒头"},
-    {"civilian": "玫瑰", "undercover": "康乃馨"},
-    {"civilian": "警察", "undercover": "保安"},
-    {"civilian": "眼镜", "undercover": "墨镜"},
-    {"civilian": "手机", "undercover": "平板"},
-    {"civilian": "可乐", "undercover": "雪碧"},
-    {"civilian": "薯条", "undercover": "薯片"},
-    {"civilian": "洗衣机", "undercover": "洗碗机"},
-    {"civilian": "老师", "undercover": "教授"}
+    {
+      "civilian": "鞋柜",
+      "undercover": "玄关柜"
+    },
+    {
+      "civilian": "圆柱",
+      "undercover": "圆锥"
+    },
+    {
+      "civilian": "斗篷",
+      "undercover": "披风"
+    },
+    {
+      "civilian": "医生",
+      "undercover": "护士"
+    },
+    {
+      "civilian": "跑车",
+      "undercover": "赛车"
+    },
+    {
+      "civilian": "拖把池",
+      "undercover": "洗衣池"
+    },
+    {
+      "civilian": "垃圾桶",
+      "undercover": "垃圾袋"
+    },
+    {
+      "civilian": "马车",
+      "undercover": "战车"
+    },
+    {
+      "civilian": "VR眼镜",
+      "undercover": "AR眼镜"
+    },
+    {
+      "civilian": "电动牙刷",
+      "undercover": "冲牙器"
+    },
+    {
+      "civilian": "机枪",
+      "undercover": "狙击枪"
+    },
+    {
+      "civilian": "滑雪场",
+      "undercover": "溜冰场"
+    },
+    {
+      "civilian": "木耳",
+      "undercover": "银耳"
+    },
+    {
+      "civilian": "智能音箱",
+      "undercover": "智能手表"
+    },
+    {
+      "civilian": "暖宝宝",
+      "undercover": "热水袋"
+    },
+    {
+      "civilian": "拔河",
+      "undercover": "扳手腕"
+    },
+    {
+      "civilian": "铲子",
+      "undercover": "汤勺"
+    },
+    {
+      "civilian": "面筋",
+      "undercover": "烤麸"
+    },
+    {
+      "civilian": "弹珠",
+      "undercover": "陀螺"
+    },
+    {
+      "civilian": "码头",
+      "undercover": "渡口"
+    },
+    {
+      "civilian": "斗地主",
+      "undercover": "升级"
+    },
+    {
+      "civilian": "门帘",
+      "undercover": "珠帘"
+    },
+    {
+      "civilian": "月亮",
+      "undercover": "卫星"
+    },
+    {
+      "civilian": "电竞",
+      "undercover": "网游"
+    },
+    {
+      "civilian": "万圣节",
+      "undercover": "鬼节"
+    },
+    {
+      "civilian": "可乐",
+      "undercover": "雪碧"
+    },
+    {
+      "civilian": "魔方",
+      "undercover": "华容道"
+    },
+    {
+      "civilian": "酒吧",
+      "undercover": "夜店"
+    },
+    {
+      "civilian": "枕头",
+      "undercover": "抱枕"
+    },
+    {
+      "civilian": "指甲",
+      "undercover": "趾甲"
+    },
+    {
+      "civilian": "跨栏",
+      "undercover": "障碍跑"
+    },
+    {
+      "civilian": "对称",
+      "undercover": "不对称"
+    },
+    {
+      "civilian": "二胡",
+      "undercover": "板胡"
+    },
+    {
+      "civilian": "摔跤",
+      "undercover": "相扑"
+    },
+    {
+      "civilian": "蛋黄果",
+      "undercover": "人参果"
+    },
+    {
+      "civilian": "喷泉",
+      "undercover": "人工湖"
+    },
+    {
+      "civilian": "保安",
+      "undercover": "门卫"
+    },
+    {
+      "civilian": "元旦",
+      "undercover": "春节"
+    },
+    {
+      "civilian": "灯谜",
+      "undercover": "字谜"
+    },
+    {
+      "civilian": "U盘",
+      "undercover": "移动硬盘"
+    },
+    {
+      "civilian": "新闻学",
+      "undercover": "传播学"
+    },
+    {
+      "civilian": "茴香",
+      "undercover": "藿香"
+    },
+    {
+      "civilian": "自由",
+      "undercover": "束缚"
+    },
+    {
+      "civilian": "热水器",
+      "undercover": "壁挂炉"
+    },
+    {
+      "civilian": "屏风",
+      "undercover": "隔断"
+    },
+    {
+      "civilian": "姑娘果",
+      "undercover": "酸浆"
+    },
+    {
+      "civilian": "百香果",
+      "undercover": "鸡蛋果"
+    },
+    {
+      "civilian": "钓鱼",
+      "undercover": "打猎"
+    },
+    {
+      "civilian": "豇豆",
+      "undercover": "四季豆"
+    },
+    {
+      "civilian": "闪电",
+      "undercover": "打雷"
+    },
+    {
+      "civilian": "军刀",
+      "undercover": "匕首"
+    },
+    {
+      "civilian": "日晕",
+      "undercover": "月晕"
+    },
+    {
+      "civilian": "电烙铁",
+      "undercover": "热风枪"
+    },
+    {
+      "civilian": "芒果",
+      "undercover": "木瓜"
+    },
+    {
+      "civilian": "害羞",
+      "undercover": "腼腆"
+    },
+    {
+      "civilian": "蜻蜓",
+      "undercover": "豆娘"
+    },
+    {
+      "civilian": "皮卡",
+      "undercover": "小货车"
+    },
+    {
+      "civilian": "心理咨询师",
+      "undercover": "心理医生"
+    },
+    {
+      "civilian": "火箭",
+      "undercover": "航天飞机"
+    },
+    {
+      "civilian": "学校",
+      "undercover": "培训班"
+    },
+    {
+      "civilian": "邪恶",
+      "undercover": "残忍"
+    },
+    {
+      "civilian": "太阳",
+      "undercover": "月亮"
+    },
+    {
+      "civilian": "跳远",
+      "undercover": "三级跳"
+    },
+    {
+      "civilian": "考古学家",
+      "undercover": "历史学家"
+    },
+    {
+      "civilian": "电影院",
+      "undercover": "剧院"
+    },
+    {
+      "civilian": "翡翠",
+      "undercover": "和田玉"
+    },
+    {
+      "civilian": "吧台",
+      "undercover": "岛台"
+    },
+    {
+      "civilian": "魔芋",
+      "undercover": "蒟蒻"
+    },
+    {
+      "civilian": "话剧",
+      "undercover": "歌剧"
+    },
+    {
+      "civilian": "松鼠",
+      "undercover": "花栗鼠"
+    },
+    {
+      "civilian": "手套",
+      "undercover": "连指手套"
+    },
+    {
+      "civilian": "开会",
+      "undercover": "培训"
+    },
+    {
+      "civilian": "布娃娃",
+      "undercover": "毛绒玩具"
+    },
+    {
+      "civilian": "彩虹",
+      "undercover": "光晕"
+    },
+    {
+      "civilian": "穿山甲",
+      "undercover": "犰狳"
+    },
+    {
+      "civilian": "雾",
+      "undercover": "霾"
+    },
+    {
+      "civilian": "化石",
+      "undercover": "琥珀"
+    },
+    {
+      "civilian": "手",
+      "undercover": "脚"
+    },
+    {
+      "civilian": "CPU",
+      "undercover": "GPU"
+    },
+    {
+      "civilian": "黄鹂",
+      "undercover": "画眉"
+    },
+    {
+      "civilian": "杨桃",
+      "undercover": "莲雾"
+    },
+    {
+      "civilian": "失败",
+      "undercover": "挫折"
+    },
+    {
+      "civilian": "唐诗",
+      "undercover": "宋词"
+    },
+    {
+      "civilian": "清明节",
+      "undercover": "寒食节"
+    },
+    {
+      "civilian": "空气净化器",
+      "undercover": "新风系统"
+    },
+    {
+      "civilian": "窗帘杆",
+      "undercover": "罗马杆"
+    },
+    {
+      "civilian": "帆船",
+      "undercover": "帆板"
+    },
+    {
+      "civilian": "太极",
+      "undercover": "气功"
+    },
+    {
+      "civilian": "盘古",
+      "undercover": "混沌"
+    },
+    {
+      "civilian": "长矛",
+      "undercover": "大刀"
+    },
+    {
+      "civilian": "蛇",
+      "undercover": "蜥蜴"
+    },
+    {
+      "civilian": "螺旋",
+      "undercover": "波浪"
+    },
+    {
+      "civilian": "春节",
+      "undercover": "元宵节"
+    },
+    {
+      "civilian": "章鱼",
+      "undercover": "鱿鱼"
+    },
+    {
+      "civilian": "凉席",
+      "undercover": "蚊帐"
+    },
+    {
+      "civilian": "晾衣架",
+      "undercover": "烘干机"
+    },
+    {
+      "civilian": "紫菜",
+      "undercover": "海带"
+    },
+    {
+      "civilian": "医院",
+      "undercover": "卫生所"
+    },
+    {
+      "civilian": "热气球",
+      "undercover": "飞艇"
+    },
+    {
+      "civilian": "豆浆机",
+      "undercover": "破壁机"
+    },
+    {
+      "civilian": "越野车",
+      "undercover": "SUV"
+    },
+    {
+      "civilian": "电影",
+      "undercover": "电视剧"
+    },
+    {
+      "civilian": "黄铜",
+      "undercover": "青铜"
+    },
+    {
+      "civilian": "科幻片",
+      "undercover": "奇幻片"
+    },
+    {
+      "civilian": "腰",
+      "undercover": "臀"
+    },
+    {
+      "civilian": "胰腺",
+      "undercover": "胆囊"
+    },
+    {
+      "civilian": "铲车",
+      "undercover": "叉车"
+    },
+    {
+      "civilian": "钻石",
+      "undercover": "红宝石"
+    },
+    {
+      "civilian": "牛仔裤",
+      "undercover": "休闲裤"
+    },
+    {
+      "civilian": "橱柜",
+      "undercover": "吊柜"
+    },
+    {
+      "civilian": "水手",
+      "undercover": "船长"
+    },
+    {
+      "civilian": "闪电",
+      "undercover": "雷声"
+    },
+    {
+      "civilian": "桑葚",
+      "undercover": "蓝莓"
+    },
+    {
+      "civilian": "泳衣",
+      "undercover": "潜水服"
+    },
+    {
+      "civilian": "制服",
+      "undercover": "校服"
+    },
+    {
+      "civilian": "沙尘暴",
+      "undercover": "扬沙"
+    },
+    {
+      "civilian": "快板",
+      "undercover": "竹板"
+    },
+    {
+      "civilian": "黑布林",
+      "undercover": "红布林"
+    },
+    {
+      "civilian": "大枣",
+      "undercover": "红枣"
+    },
+    {
+      "civilian": "司机",
+      "undercover": "飞行员"
+    },
+    {
+      "civilian": "海豹",
+      "undercover": "海狮"
+    },
+    {
+      "civilian": "橄榄球",
+      "undercover": "美式足球"
+    },
+    {
+      "civilian": "赤道",
+      "undercover": "回归线"
+    },
+    {
+      "civilian": "晴天",
+      "undercover": "多云"
+    },
+    {
+      "civilian": "母亲节",
+      "undercover": "父亲节"
+    },
+    {
+      "civilian": "蜘蛛",
+      "undercover": "蝎子"
+    },
+    {
+      "civilian": "孤独",
+      "undercover": "寂寞"
+    },
+    {
+      "civilian": "摇椅",
+      "undercover": "躺椅"
+    },
+    {
+      "civilian": "超市",
+      "undercover": "便利店"
+    },
+    {
+      "civilian": "跳绳",
+      "undercover": "踢毽子"
+    },
+    {
+      "civilian": "莲藕",
+      "undercover": "荸荠"
+    },
+    {
+      "civilian": "兔子",
+      "undercover": "仓鼠"
+    },
+    {
+      "civilian": "彩虹",
+      "undercover": "朝霞"
+    },
+    {
+      "civilian": "慈菇",
+      "undercover": "芋头"
+    },
+    {
+      "civilian": "浴缸",
+      "undercover": "淋浴房"
+    },
+    {
+      "civilian": "卡牌",
+      "undercover": "集换卡"
+    },
+    {
+      "civilian": "对讲机",
+      "undercover": "收音机"
+    },
+    {
+      "civilian": "星座",
+      "undercover": "星团"
+    },
+    {
+      "civilian": "黄瓜",
+      "undercover": "丝瓜"
+    },
+    {
+      "civilian": "灯塔",
+      "undercover": "航标"
+    },
+    {
+      "civilian": "搬家",
+      "undercover": "装修"
+    },
+    {
+      "civilian": "毛巾",
+      "undercover": "浴巾"
+    },
+    {
+      "civilian": "老师",
+      "undercover": "教授"
+    },
+    {
+      "civilian": "吸尘器",
+      "undercover": "扫地机器人"
+    },
+    {
+      "civilian": "柿子",
+      "undercover": "黑枣"
+    },
+    {
+      "civilian": "教师节",
+      "undercover": "护士节"
+    },
+    {
+      "civilian": "花茶",
+      "undercover": "菊花茶"
+    },
+    {
+      "civilian": "山竹",
+      "undercover": "红毛丹"
+    },
+    {
+      "civilian": "西柚",
+      "undercover": "蜜柚"
+    },
+    {
+      "civilian": "水母",
+      "undercover": "珊瑚"
+    },
+    {
+      "civilian": "救护车",
+      "undercover": "消防车"
+    },
+    {
+      "civilian": "玉帝",
+      "undercover": "王母"
+    },
+    {
+      "civilian": "火车",
+      "undercover": "高铁"
+    },
+    {
+      "civilian": "排队",
+      "undercover": "等号"
+    },
+    {
+      "civilian": "惊讶",
+      "undercover": "震惊"
+    },
+    {
+      "civilian": "天文学",
+      "undercover": "地质学"
+    },
+    {
+      "civilian": "散热器",
+      "undercover": "水冷"
+    },
+    {
+      "civilian": "帽子",
+      "undercover": "贝雷帽"
+    },
+    {
+      "civilian": "弓箭",
+      "undercover": "弩"
+    },
+    {
+      "civilian": "勇气",
+      "undercover": "胆量"
+    },
+    {
+      "civilian": "花匠",
+      "undercover": "园艺师"
+    },
+    {
+      "civilian": "瀑布",
+      "undercover": "温泉"
+    },
+    {
+      "civilian": "喜剧",
+      "undercover": "悲剧"
+    },
+    {
+      "civilian": "班卓琴",
+      "undercover": "曼陀林"
+    },
+    {
+      "civilian": "床",
+      "undercover": "沙发"
+    },
+    {
+      "civilian": "蓝色",
+      "undercover": "绿色"
+    },
+    {
+      "civilian": "平行",
+      "undercover": "垂直"
+    },
+    {
+      "civilian": "卫衣",
+      "undercover": "帽衫"
+    },
+    {
+      "civilian": "飞盘",
+      "undercover": "飞镖"
+    },
+    {
+      "civilian": "山羊",
+      "undercover": "绵羊"
+    },
+    {
+      "civilian": "电磁炉",
+      "undercover": "电陶炉"
+    },
+    {
+      "civilian": "医院",
+      "undercover": "诊所"
+    },
+    {
+      "civilian": "戒指",
+      "undercover": "指环"
+    },
+    {
+      "civilian": "马齿苋",
+      "undercover": "荠菜"
+    },
+    {
+      "civilian": "天王星",
+      "undercover": "海王星"
+    },
+    {
+      "civilian": "季风",
+      "undercover": "信风"
+    },
+    {
+      "civilian": "电视",
+      "undercover": "投影仪"
+    },
+    {
+      "civilian": "长笛",
+      "undercover": "短笛"
+    },
+    {
+      "civilian": "天桥",
+      "undercover": "地下通道"
+    },
+    {
+      "civilian": "皮革",
+      "undercover": "人造革"
+    },
+    {
+      "civilian": "芦笙",
+      "undercover": "葫芦丝"
+    },
+    {
+      "civilian": "蜈蚣",
+      "undercover": "马陆"
+    },
+    {
+      "civilian": "唢呐",
+      "undercover": "笙"
+    },
+    {
+      "civilian": "亲情",
+      "undercover": "爱情"
+    },
+    {
+      "civilian": "西装",
+      "undercover": "礼服"
+    },
+    {
+      "civilian": "种花",
+      "undercover": "种菜"
+    },
+    {
+      "civilian": "干旱",
+      "undercover": "洪涝"
+    },
+    {
+      "civilian": "粽子",
+      "undercover": "汤圆"
+    },
+    {
+      "civilian": "沙漠",
+      "undercover": "戈壁"
+    },
+    {
+      "civilian": "公交车",
+      "undercover": "大巴"
+    },
+    {
+      "civilian": "愚蠢",
+      "undercover": "笨拙"
+    },
+    {
+      "civilian": "刺梨",
+      "undercover": "金樱子"
+    },
+    {
+      "civilian": "书架",
+      "undercover": "置物架"
+    },
+    {
+      "civilian": "水蜜桃",
+      "undercover": "黄桃"
+    },
+    {
+      "civilian": "扑克",
+      "undercover": "麻将"
+    },
+    {
+      "civilian": "聚餐",
+      "undercover": "团建"
+    },
+    {
+      "civilian": "木星",
+      "undercover": "土星"
+    },
+    {
+      "civilian": "红细胞",
+      "undercover": "白细胞"
+    },
+    {
+      "civilian": "大象",
+      "undercover": "犀牛"
+    },
+    {
+      "civilian": "铅笔",
+      "undercover": "圆珠笔"
+    },
+    {
+      "civilian": "梯田",
+      "undercover": "水田"
+    },
+    {
+      "civilian": "吊灯",
+      "undercover": "壁灯"
+    },
+    {
+      "civilian": "机场",
+      "undercover": "火车站"
+    },
+    {
+      "civilian": "民法",
+      "undercover": "刑法"
+    },
+    {
+      "civilian": "微风",
+      "undercover": "狂风"
+    },
+    {
+      "civilian": "逛街",
+      "undercover": "网购"
+    },
+    {
+      "civilian": "扎染",
+      "undercover": "蓝印花布"
+    },
+    {
+      "civilian": "法院",
+      "undercover": "检察院"
+    },
+    {
+      "civilian": "飞行员",
+      "undercover": "空姐"
+    },
+    {
+      "civilian": "直线",
+      "undercover": "曲线"
+    },
+    {
+      "civilian": "萤火虫",
+      "undercover": "萤火虫幼虫"
+    },
+    {
+      "civilian": "图书馆",
+      "undercover": "阅览室"
+    },
+    {
+      "civilian": "排球",
+      "undercover": "沙滩排球"
+    },
+    {
+      "civilian": "步行街",
+      "undercover": "商业街"
+    },
+    {
+      "civilian": "打火机",
+      "undercover": "火柴"
+    },
+    {
+      "civilian": "金星",
+      "undercover": "水星"
+    },
+    {
+      "civilian": "青梅",
+      "undercover": "酸梅"
+    },
+    {
+      "civilian": "大理石",
+      "undercover": "花岗岩"
+    },
+    {
+      "civilian": "朝霞",
+      "undercover": "晚霞"
+    },
+    {
+      "civilian": "草莓",
+      "undercover": "蓝莓"
+    },
+    {
+      "civilian": "马车",
+      "undercover": "牛车"
+    },
+    {
+      "civilian": "管风琴",
+      "undercover": "教堂风琴"
+    },
+    {
+      "civilian": "手链",
+      "undercover": "手镯"
+    },
+    {
+      "civilian": "袖扣",
+      "undercover": "领带夹"
+    },
+    {
+      "civilian": "勺子",
+      "undercover": "汤匙"
+    },
+    {
+      "civilian": "老鹰",
+      "undercover": "秃鹫"
+    },
+    {
+      "civilian": "蜥蜴",
+      "undercover": "壁虎"
+    },
+    {
+      "civilian": "陶笛",
+      "undercover": "埙"
+    },
+    {
+      "civilian": "喜欢",
+      "undercover": "爱"
+    },
+    {
+      "civilian": "游戏机",
+      "undercover": "掌机"
+    },
+    {
+      "civilian": "云海",
+      "undercover": "雾凇"
+    },
+    {
+      "civilian": "荠菜",
+      "undercover": "马兰头"
+    },
+    {
+      "civilian": "鲫鱼",
+      "undercover": "鲤鱼"
+    },
+    {
+      "civilian": "相框",
+      "undercover": "画框"
+    },
+    {
+      "civilian": "石头",
+      "undercover": "玉石"
+    },
+    {
+      "civilian": "牛排",
+      "undercover": "猪排"
+    },
+    {
+      "civilian": "坦克",
+      "undercover": "装甲车"
+    },
+    {
+      "civilian": "合成器",
+      "undercover": "编曲键盘"
+    },
+    {
+      "civilian": "锅",
+      "undercover": "炒锅"
+    },
+    {
+      "civilian": "公园",
+      "undercover": "广场"
+    },
+    {
+      "civilian": "水族馆",
+      "undercover": "海洋馆"
+    },
+    {
+      "civilian": "汤",
+      "undercover": "羹"
+    },
+    {
+      "civilian": "冰球",
+      "undercover": "曲棍球"
+    },
+    {
+      "civilian": "微积分",
+      "undercover": "线性代数"
+    },
+    {
+      "civilian": "快乐",
+      "undercover": "开心"
+    },
+    {
+      "civilian": "加班",
+      "undercover": "出差"
+    },
+    {
+      "civilian": "菠菜",
+      "undercover": "油麦菜"
+    },
+    {
+      "civilian": "重阳节",
+      "undercover": "登高节"
+    },
+    {
+      "civilian": "峡谷",
+      "undercover": "溶洞"
+    },
+    {
+      "civilian": "床垫",
+      "undercover": "乳胶垫"
+    },
+    {
+      "civilian": "缝纫针",
+      "undercover": "绣花针"
+    },
+    {
+      "civilian": "蛋黄果",
+      "undercover": "仙桃"
+    },
+    {
+      "civilian": "防弹衣",
+      "undercover": "头盔"
+    },
+    {
+      "civilian": "瀑布",
+      "undercover": "溪流"
+    },
+    {
+      "civilian": "肺",
+      "undercover": "肾脏"
+    },
+    {
+      "civilian": "体操",
+      "undercover": "艺术体操"
+    },
+    {
+      "civilian": "腰带",
+      "undercover": "皮带"
+    },
+    {
+      "civilian": "管道工",
+      "undercover": "维修工"
+    },
+    {
+      "civilian": "红色",
+      "undercover": "橙色"
+    },
+    {
+      "civilian": "陶艺",
+      "undercover": "雕塑"
+    },
+    {
+      "civilian": "游乐园",
+      "undercover": "主题公园"
+    },
+    {
+      "civilian": "俄罗斯方块",
+      "undercover": "贪吃蛇"
+    },
+    {
+      "civilian": "佛手",
+      "undercover": "香橼"
+    },
+    {
+      "civilian": "黎明",
+      "undercover": "黄昏"
+    },
+    {
+      "civilian": "吉他",
+      "undercover": "贝斯"
+    },
+    {
+      "civilian": "太阳能板",
+      "undercover": "风力发电机"
+    },
+    {
+      "civilian": "垃圾桶",
+      "undercover": "分类垃圾桶"
+    },
+    {
+      "civilian": "红酒",
+      "undercover": "白酒"
+    },
+    {
+      "civilian": "电脑",
+      "undercover": "笔记本"
+    },
+    {
+      "civilian": "鸭子",
+      "undercover": "鹅"
+    },
+    {
+      "civilian": "纽扣",
+      "undercover": "拉链"
+    },
+    {
+      "civilian": "冰川",
+      "undercover": "雪峰"
+    },
+    {
+      "civilian": "拼图",
+      "undercover": "积木"
+    },
+    {
+      "civilian": "马甲",
+      "undercover": "背心"
+    },
+    {
+      "civilian": "骨头",
+      "undercover": "肌肉"
+    },
+    {
+      "civilian": "鲢鱼",
+      "undercover": "鳙鱼"
+    },
+    {
+      "civilian": "碰碰车",
+      "undercover": "卡丁车"
+    },
+    {
+      "civilian": "脖子",
+      "undercover": "后背"
+    },
+    {
+      "civilian": "古筝",
+      "undercover": "古琴"
+    },
+    {
+      "civilian": "痛苦",
+      "undercover": "煎熬"
+    },
+    {
+      "civilian": "菠萝",
+      "undercover": "凤梨"
+    },
+    {
+      "civilian": "鸬鹚",
+      "undercover": "鱼鹰"
+    },
+    {
+      "civilian": "菜刀",
+      "undercover": "水果刀"
+    },
+    {
+      "civilian": "红树林",
+      "undercover": "芦苇荡"
+    },
+    {
+      "civilian": "八仙",
+      "undercover": "七仙女"
+    },
+    {
+      "civilian": "地质学家",
+      "undercover": "矿物学家"
+    },
+    {
+      "civilian": "保鲜膜",
+      "undercover": "保鲜袋"
+    },
+    {
+      "civilian": "变色龙",
+      "undercover": "鬣蜥"
+    },
+    {
+      "civilian": "眉毛",
+      "undercover": "睫毛"
+    },
+    {
+      "civilian": "花瓶",
+      "undercover": "花盆"
+    },
+    {
+      "civilian": "做饭",
+      "undercover": "烘焙"
+    },
+    {
+      "civilian": "海星",
+      "undercover": "海胆"
+    },
+    {
+      "civilian": "投影仪",
+      "undercover": "幕布"
+    },
+    {
+      "civilian": "日食",
+      "undercover": "月食"
+    },
+    {
+      "civilian": "黑莓",
+      "undercover": "树莓"
+    },
+    {
+      "civilian": "台风",
+      "undercover": "暴风雪"
+    },
+    {
+      "civilian": "丝绸",
+      "undercover": "棉布"
+    },
+    {
+      "civilian": "地铁",
+      "undercover": "轻轨"
+    },
+    {
+      "civilian": "铁人三项",
+      "undercover": "越野赛"
+    },
+    {
+      "civilian": "机械键盘",
+      "undercover": "薄膜键盘"
+    },
+    {
+      "civilian": "黑色",
+      "undercover": "灰色"
+    },
+    {
+      "civilian": "冰袋",
+      "undercover": "冰贴"
+    },
+    {
+      "civilian": "玻璃",
+      "undercover": "水晶"
+    },
+    {
+      "civilian": "粮仓",
+      "undercover": "筒仓"
+    },
+    {
+      "civilian": "法学",
+      "undercover": "政治学"
+    },
+    {
+      "civilian": "电子琴",
+      "undercover": "电钢琴"
+    },
+    {
+      "civilian": "秋葵",
+      "undercover": "毛豆"
+    },
+    {
+      "civilian": "摩托车",
+      "undercover": "电动车"
+    },
+    {
+      "civilian": "讨厌",
+      "undercover": "厌恶"
+    },
+    {
+      "civilian": "饺子",
+      "undercover": "馄饨"
+    },
+    {
+      "civilian": "雨靴",
+      "undercover": "雪地靴"
+    },
+    {
+      "civilian": "乒乓球",
+      "undercover": "羽毛球"
+    },
+    {
+      "civilian": "国画",
+      "undercover": "油画"
+    },
+    {
+      "civilian": "哲学",
+      "undercover": "逻辑学"
+    },
+    {
+      "civilian": "茄子",
+      "undercover": "长茄"
+    },
+    {
+      "civilian": "平房",
+      "undercover": "四合院"
+    },
+    {
+      "civilian": "年终奖",
+      "undercover": "绩效奖金"
+    },
+    {
+      "civilian": "额头",
+      "undercover": "下巴"
+    },
+    {
+      "civilian": "经济学",
+      "undercover": "管理学"
+    },
+    {
+      "civilian": "花店",
+      "undercover": "宠物店"
+    },
+    {
+      "civilian": "剪纸",
+      "undercover": "年画"
+    },
+    {
+      "civilian": "杨梅",
+      "undercover": "青梅"
+    },
+    {
+      "civilian": "橄榄",
+      "undercover": "槟榔"
+    },
+    {
+      "civilian": "电熨斗",
+      "undercover": "挂烫机"
+    },
+    {
+      "civilian": "蝮蛇",
+      "undercover": "银环蛇"
+    },
+    {
+      "civilian": "甘蔗",
+      "undercover": "甜高粱"
+    },
+    {
+      "civilian": "编钟",
+      "undercover": "磬"
+    },
+    {
+      "civilian": "咳嗽",
+      "undercover": "打喷嚏"
+    },
+    {
+      "civilian": "脾脏",
+      "undercover": "淋巴"
+    },
+    {
+      "civilian": "动物园",
+      "undercover": "植物园"
+    },
+    {
+      "civilian": "蜗牛",
+      "undercover": "蛞蝓"
+    },
+    {
+      "civilian": "沙漠",
+      "undercover": "绿洲"
+    },
+    {
+      "civilian": "奶酪",
+      "undercover": "黄油"
+    },
+    {
+      "civilian": "足球",
+      "undercover": "篮球"
+    },
+    {
+      "civilian": "上下铺",
+      "undercover": "高低床"
+    },
+    {
+      "civilian": "旗袍",
+      "undercover": "汉服"
+    },
+    {
+      "civilian": "被子",
+      "undercover": "毛毯"
+    },
+    {
+      "civilian": "麻",
+      "undercover": "亚麻"
+    },
+    {
+      "civilian": "导弹",
+      "undercover": "火箭弹"
+    },
+    {
+      "civilian": "天文馆",
+      "undercover": "科技馆"
+    },
+    {
+      "civilian": "按摩椅",
+      "undercover": "足浴盆"
+    },
+    {
+      "civilian": "海岛",
+      "undercover": "半岛"
+    },
+    {
+      "civilian": "啤酒",
+      "undercover": "黄酒"
+    },
+    {
+      "civilian": "钥匙",
+      "undercover": "锁"
+    },
+    {
+      "civilian": "遗传学",
+      "undercover": "进化论"
+    },
+    {
+      "civilian": "钟楼",
+      "undercover": "鼓楼"
+    },
+    {
+      "civilian": "数码相机",
+      "undercover": "微单相机"
+    },
+    {
+      "civilian": "古代史",
+      "undercover": "近代史"
+    },
+    {
+      "civilian": "眼睛",
+      "undercover": "耳朵"
+    },
+    {
+      "civilian": "露水",
+      "undercover": "霜"
+    },
+    {
+      "civilian": "内存条",
+      "undercover": "显卡"
+    },
+    {
+      "civilian": "crossword",
+      "undercover": "数独"
+    },
+    {
+      "civilian": "声乐",
+      "undercover": "合唱"
+    },
+    {
+      "civilian": "生日",
+      "undercover": "纪念日"
+    },
+    {
+      "civilian": "桌布",
+      "undercover": "桌旗"
+    },
+    {
+      "civilian": "雷神",
+      "undercover": "洛基"
+    },
+    {
+      "civilian": "肩膀",
+      "undercover": "胳膊"
+    },
+    {
+      "civilian": "笔记本",
+      "undercover": "日记本"
+    },
+    {
+      "civilian": "香菜",
+      "undercover": "香葱"
+    },
+    {
+      "civilian": "吊车",
+      "undercover": "起重机"
+    },
+    {
+      "civilian": "三月三",
+      "undercover": "歌圩节"
+    },
+    {
+      "civilian": "殡葬师",
+      "undercover": "入殓师"
+    },
+    {
+      "civilian": "杜鹃",
+      "undercover": "布谷鸟"
+    },
+    {
+      "civilian": "武术",
+      "undercover": "拳击"
+    },
+    {
+      "civilian": "石榴",
+      "undercover": "番石榴"
+    },
+    {
+      "civilian": "灯塔",
+      "undercover": "信号塔"
+    },
+    {
+      "civilian": "竹筏",
+      "undercover": "木筏"
+    },
+    {
+      "civilian": "嫦娥",
+      "undercover": "后羿"
+    },
+    {
+      "civilian": "巧克力",
+      "undercover": "糖果"
+    },
+    {
+      "civilian": "充电器",
+      "undercover": "充电宝"
+    },
+    {
+      "civilian": "感恩节",
+      "undercover": "丰收节"
+    },
+    {
+      "civilian": "运动鞋",
+      "undercover": "皮鞋"
+    },
+    {
+      "civilian": "棉签",
+      "undercover": "化妆棉"
+    },
+    {
+      "civilian": "洗衣液",
+      "undercover": "洗衣粉"
+    },
+    {
+      "civilian": "地球",
+      "undercover": "火星"
+    },
+    {
+      "civilian": "铁饼",
+      "undercover": "链球"
+    },
+    {
+      "civilian": "咖啡机",
+      "undercover": "磨豆机"
+    },
+    {
+      "civilian": "海龟",
+      "undercover": "陆龟"
+    },
+    {
+      "civilian": "电子秤",
+      "undercover": "体脂秤"
+    },
+    {
+      "civilian": "迫击炮",
+      "undercover": "榴弹炮"
+    },
+    {
+      "civilian": "回忆",
+      "undercover": "记忆"
+    },
+    {
+      "civilian": "透明",
+      "undercover": "半透明"
+    },
+    {
+      "civilian": "樱桃",
+      "undercover": "车厘子"
+    },
+    {
+      "civilian": "森林",
+      "undercover": "丛林"
+    },
+    {
+      "civilian": "警察",
+      "undercover": "交警"
+    },
+    {
+      "civilian": "游艇",
+      "undercover": "快艇"
+    },
+    {
+      "civilian": "体育",
+      "undercover": "健康教育"
+    },
+    {
+      "civilian": "大脑",
+      "undercover": "脊髓"
+    },
+    {
+      "civilian": "蟠桃",
+      "undercover": "寿桃"
+    },
+    {
+      "civilian": "檀木",
+      "undercover": "沉香"
+    },
+    {
+      "civilian": "冥王星",
+      "undercover": "矮行星"
+    },
+    {
+      "civilian": "剃须刀",
+      "undercover": "修眉刀"
+    },
+    {
+      "civilian": "愤怒",
+      "undercover": "生气"
+    },
+    {
+      "civilian": "羊毛",
+      "undercover": "羊绒"
+    },
+    {
+      "civilian": "三角洲",
+      "undercover": "冲积扇"
+    },
+    {
+      "civilian": "隧道",
+      "undercover": "涵洞"
+    },
+    {
+      "civilian": "鼠标垫",
+      "undercover": "键盘托"
+    },
+    {
+      "civilian": "击剑",
+      "undercover": "剑道"
+    },
+    {
+      "civilian": "蘑菇",
+      "undercover": "香菇"
+    },
+    {
+      "civilian": "棒球",
+      "undercover": "垒球"
+    },
+    {
+      "civilian": "绿洲",
+      "undercover": "海市蜃楼"
+    },
+    {
+      "civilian": "豆浆",
+      "undercover": "豆花"
+    },
+    {
+      "civilian": "固态硬盘",
+      "undercover": "机械硬盘"
+    },
+    {
+      "civilian": "脸颊",
+      "undercover": "太阳穴"
+    },
+    {
+      "civilian": "哈密瓜",
+      "undercover": "白兰瓜"
+    },
+    {
+      "civilian": "战斗机",
+      "undercover": "轰炸机"
+    },
+    {
+      "civilian": "抱枕",
+      "undercover": "靠垫"
+    },
+    {
+      "civilian": "梅雨",
+      "undercover": "伏旱"
+    },
+    {
+      "civilian": "孔雀",
+      "undercover": "锦鸡"
+    },
+    {
+      "civilian": "演唱会",
+      "undercover": "音乐节"
+    },
+    {
+      "civilian": "果汁",
+      "undercover": "汽水"
+    },
+    {
+      "civilian": "跳水",
+      "undercover": "花样游泳"
+    },
+    {
+      "civilian": "榨汁机",
+      "undercover": "原汁机"
+    },
+    {
+      "civilian": "心脏",
+      "undercover": "肝脏"
+    },
+    {
+      "civilian": "鹦鹉",
+      "undercover": "八哥"
+    },
+    {
+      "civilian": "手枪",
+      "undercover": "步枪"
+    },
+    {
+      "civilian": "翻译",
+      "undercover": "口译员"
+    },
+    {
+      "civilian": "邮局",
+      "undercover": "物流站"
+    },
+    {
+      "civilian": "饭碗",
+      "undercover": "汤碗"
+    },
+    {
+      "civilian": "峡谷",
+      "undercover": "沟壑"
+    },
+    {
+      "civilian": "空手道",
+      "undercover": "合气道"
+    },
+    {
+      "civilian": "蛋糕",
+      "undercover": "面包"
+    },
+    {
+      "civilian": "婚礼",
+      "undercover": "葬礼"
+    },
+    {
+      "civilian": "蝴蝶",
+      "undercover": "飞蛾"
+    },
+    {
+      "civilian": "光年",
+      "undercover": "天文单位"
+    },
+    {
+      "civilian": "袋鼠",
+      "undercover": "考拉"
+    },
+    {
+      "civilian": "水枪",
+      "undercover": "弹弓"
+    },
+    {
+      "civilian": "望远镜",
+      "undercover": "瞄准镜"
+    },
+    {
+      "civilian": "马术",
+      "undercover": "赛马"
+    },
+    {
+      "civilian": "宇航员",
+      "undercover": "航天员"
+    },
+    {
+      "civilian": "心形",
+      "undercover": "星形"
+    },
+    {
+      "civilian": "针线",
+      "undercover": "缝纫机"
+    },
+    {
+      "civilian": "KTV",
+      "undercover": "音乐厅"
+    },
+    {
+      "civilian": "阴天",
+      "undercover": "晴天"
+    },
+    {
+      "civilian": "抹布",
+      "undercover": "百洁布"
+    },
+    {
+      "civilian": "赛艇",
+      "undercover": "皮划艇"
+    },
+    {
+      "civilian": "酒店",
+      "undercover": "民宿"
+    },
+    {
+      "civilian": "经理",
+      "undercover": "总监"
+    },
+    {
+      "civilian": "杯子",
+      "undercover": "碗"
+    },
+    {
+      "civilian": "跳高",
+      "undercover": "撑杆跳"
+    },
+    {
+      "civilian": "蝙蝠",
+      "undercover": "飞鼠"
+    },
+    {
+      "civilian": "画家",
+      "undercover": "设计师"
+    },
+    {
+      "civilian": "手电筒",
+      "undercover": "头灯"
+    },
+    {
+      "civilian": "发带",
+      "undercover": "发箍"
+    },
+    {
+      "civilian": "跑步机",
+      "undercover": "椭圆机"
+    },
+    {
+      "civilian": "高山",
+      "undercover": "丘陵"
+    },
+    {
+      "civilian": "武侠片",
+      "undercover": "动作片"
+    },
+    {
+      "civilian": "洋葱",
+      "undercover": "大葱"
+    },
+    {
+      "civilian": "死火山",
+      "undercover": "活火山"
+    },
+    {
+      "civilian": "魔术",
+      "undercover": "杂技"
+    },
+    {
+      "civilian": "教堂",
+      "undercover": "清真寺"
+    },
+    {
+      "civilian": "睡衣",
+      "undercover": "家居服"
+    },
+    {
+      "civilian": "书法",
+      "undercover": "国画"
+    },
+    {
+      "civilian": "围棋",
+      "undercover": "象棋"
+    },
+    {
+      "civilian": "剪刀",
+      "undercover": "裁纸刀"
+    },
+    {
+      "civilian": "茶壶",
+      "undercover": "保温杯"
+    },
+    {
+      "civilian": "潮湿",
+      "undercover": "干燥"
+    },
+    {
+      "civilian": "健身房",
+      "undercover": "瑜伽馆"
+    },
+    {
+      "civilian": "茼蒿",
+      "undercover": "蒿子秆"
+    },
+    {
+      "civilian": "烧烤",
+      "undercover": "铁板烧"
+    },
+    {
+      "civilian": "绿茶",
+      "undercover": "红茶"
+    },
+    {
+      "civilian": "街舞",
+      "undercover": "霹雳舞"
+    },
+    {
+      "civilian": "旅行",
+      "undercover": "度假"
+    },
+    {
+      "civilian": "统计学",
+      "undercover": "概率论"
+    },
+    {
+      "civilian": "矿泉水",
+      "undercover": "苏打水"
+    },
+    {
+      "civilian": "彗星",
+      "undercover": "小行星"
+    },
+    {
+      "civilian": "夏天",
+      "undercover": "冬天"
+    },
+    {
+      "civilian": "加班",
+      "undercover": "补休"
+    },
+    {
+      "civilian": "铁",
+      "undercover": "钢"
+    },
+    {
+      "civilian": "跑步",
+      "undercover": "竞走"
+    },
+    {
+      "civilian": "审计师",
+      "undercover": "税务师"
+    },
+    {
+      "civilian": "学校",
+      "undercover": "大学"
+    },
+    {
+      "civilian": "鲨鱼",
+      "undercover": "海豚"
+    },
+    {
+      "civilian": "挂画",
+      "undercover": "照片墙"
+    },
+    {
+      "civilian": "手腕",
+      "undercover": "手指"
+    },
+    {
+      "civilian": "袜子",
+      "undercover": "丝袜"
+    },
+    {
+      "civilian": "高尔夫",
+      "undercover": "台球"
+    },
+    {
+      "civilian": "自行车",
+      "undercover": "山地车"
+    },
+    {
+      "civilian": "汽车站",
+      "undercover": "公交枢纽"
+    },
+    {
+      "civilian": "蚊帐",
+      "undercover": "电蚊拍"
+    },
+    {
+      "civilian": "龙井",
+      "undercover": "铁观音"
+    },
+    {
+      "civilian": "端午节",
+      "undercover": "龙舟节"
+    },
+    {
+      "civilian": "面包车",
+      "undercover": "MPV"
+    },
+    {
+      "civilian": "电视柜",
+      "undercover": "酒柜"
+    },
+    {
+      "civilian": "蔓越莓",
+      "undercover": "覆盆子"
+    },
+    {
+      "civilian": "麒麟",
+      "undercover": "貔貅"
+    },
+    {
+      "civilian": "城堡",
+      "undercover": "宫殿"
+    },
+    {
+      "civilian": "计算机",
+      "undercover": "信息技术"
+    },
+    {
+      "civilian": "纪念碑",
+      "undercover": "雕像"
+    },
+    {
+      "civilian": "金鱼",
+      "undercover": "锦鲤"
+    },
+    {
+      "civilian": "无花果",
+      "undercover": "人参果"
+    },
+    {
+      "civilian": "火龙果",
+      "undercover": "仙人掌果"
+    },
+    {
+      "civilian": "木琴",
+      "undercover": "马林巴"
+    },
+    {
+      "civilian": "油麦菜",
+      "undercover": "生菜"
+    },
+    {
+      "civilian": "羽绒服",
+      "undercover": "棉袄"
+    },
+    {
+      "civilian": "猴子",
+      "undercover": "猩猩"
+    },
+    {
+      "civilian": "漫画",
+      "undercover": "动画"
+    },
+    {
+      "civilian": "天文学家",
+      "undercover": "气象学家"
+    },
+    {
+      "civilian": "青蛙",
+      "undercover": "蟾蜍"
+    },
+    {
+      "civilian": "标枪",
+      "undercover": "铅球"
+    },
+    {
+      "civilian": "经线",
+      "undercover": "纬线"
+    },
+    {
+      "civilian": "菜市场",
+      "undercover": "农贸市场"
+    },
+    {
+      "civilian": "蛇皮果",
+      "undercover": "红毛丹"
+    },
+    {
+      "civilian": "啄木鸟",
+      "undercover": "戴胜"
+    },
+    {
+      "civilian": "导游",
+      "undercover": "讲解员"
+    },
+    {
+      "civilian": "化妆师",
+      "undercover": "美容师"
+    },
+    {
+      "civilian": "打印机",
+      "undercover": "复印机"
+    },
+    {
+      "civilian": "盘子",
+      "undercover": "碟子"
+    },
+    {
+      "civilian": "百灵",
+      "undercover": "云雀"
+    },
+    {
+      "civilian": "沙果",
+      "undercover": "海棠果"
+    },
+    {
+      "civilian": "营养师",
+      "undercover": "健身教练"
+    },
+    {
+      "civilian": "信天翁",
+      "undercover": "鹈鹕"
+    },
+    {
+      "civilian": "变电站",
+      "undercover": "发电厂"
+    },
+    {
+      "civilian": "圆号",
+      "undercover": "大号"
+    },
+    {
+      "civilian": "闷热",
+      "undercover": "凉爽"
+    },
+    {
+      "civilian": "扫描仪",
+      "undercover": "碎纸机"
+    },
+    {
+      "civilian": "遛狗",
+      "undercover": "遛娃"
+    },
+    {
+      "civilian": "兽医",
+      "undercover": "宠物医生"
+    },
+    {
+      "civilian": "电饭煲",
+      "undercover": "电压力锅"
+    },
+    {
+      "civilian": "置物篮",
+      "undercover": "收纳筐"
+    },
+    {
+      "civilian": "门垫",
+      "undercover": "脚垫"
+    },
+    {
+      "civilian": "保姆",
+      "undercover": "月嫂"
+    },
+    {
+      "civilian": "梦想",
+      "undercover": "理想"
+    },
+    {
+      "civilian": "地铁站",
+      "undercover": "公交站"
+    },
+    {
+      "civilian": "消防员",
+      "undercover": "急救员"
+    },
+    {
+      "civilian": "打卡",
+      "undercover": "签到"
+    },
+    {
+      "civilian": "悬疑片",
+      "undercover": "恐怖片"
+    },
+    {
+      "civilian": "游泳池",
+      "undercover": "跳水馆"
+    },
+    {
+      "civilian": "那达慕",
+      "undercover": "赛马节"
+    },
+    {
+      "civilian": "米饭",
+      "undercover": "面条"
+    },
+    {
+      "civilian": "律师",
+      "undercover": "法官"
+    },
+    {
+      "civilian": "中元节",
+      "undercover": "盂兰盆节"
+    },
+    {
+      "civilian": "质检员",
+      "undercover": "检验员"
+    },
+    {
+      "civilian": "商场",
+      "undercover": "百货"
+    },
+    {
+      "civilian": "运动员",
+      "undercover": "教练"
+    },
+    {
+      "civilian": "纸张",
+      "undercover": "cardboard"
+    },
+    {
+      "civilian": "拇指琴",
+      "undercover": "卡林巴"
+    },
+    {
+      "civilian": "蜜蜂",
+      "undercover": "黄蜂"
+    },
+    {
+      "civilian": "双肩包",
+      "undercover": "单肩包"
+    },
+    {
+      "civilian": "立交桥",
+      "undercover": "高架桥"
+    },
+    {
+      "civilian": "真心话",
+      "undercover": "大冒险"
+    },
+    {
+      "civilian": "跳棋",
+      "undercover": "军棋"
+    },
+    {
+      "civilian": "跳伞",
+      "undercover": "蹦极"
+    },
+    {
+      "civilian": "滑板",
+      "undercover": "轮滑"
+    },
+    {
+      "civilian": "毛衣",
+      "undercover": "针织衫"
+    },
+    {
+      "civilian": "香蕉",
+      "undercover": "芭蕉"
+    },
+    {
+      "civilian": "刺绣",
+      "undercover": "蜡染"
+    },
+    {
+      "civilian": "监控摄像头",
+      "undercover": "门铃"
+    },
+    {
+      "civilian": "砧板",
+      "undercover": "面板"
+    },
+    {
+      "civilian": "桌游",
+      "undercover": "剧本杀"
+    },
+    {
+      "civilian": "包子",
+      "undercover": "馒头"
+    },
+    {
+      "civilian": "害怕",
+      "undercover": "恐惧"
+    },
+    {
+      "civilian": "外套",
+      "undercover": "风衣"
+    },
+    {
+      "civilian": "胡同",
+      "undercover": "弄堂"
+    },
+    {
+      "civilian": "喉咙",
+      "undercover": "声带"
+    },
+    {
+      "civilian": "网球",
+      "undercover": "壁球"
+    },
+    {
+      "civilian": "火山",
+      "undercover": "地震带"
+    },
+    {
+      "civilian": "藏历新年",
+      "undercover": "雪顿节"
+    },
+    {
+      "civilian": "大使馆",
+      "undercover": "领事馆"
+    },
+    {
+      "civilian": "竖琴",
+      "undercover": "箜篌"
+    },
+    {
+      "civilian": "碳纤维",
+      "undercover": "玻璃钢"
+    },
+    {
+      "civilian": "历史",
+      "undercover": "政治"
+    },
+    {
+      "civilian": "排插",
+      "undercover": "转换器"
+    },
+    {
+      "civilian": "金桔",
+      "undercover": "砂糖橘"
+    },
+    {
+      "civilian": "面包师",
+      "undercover": "糕点师"
+    },
+    {
+      "civilian": "复活节",
+      "undercover": "春分"
+    },
+    {
+      "civilian": "银行",
+      "undercover": "信用社"
+    },
+    {
+      "civilian": "粥",
+      "undercover": "糊"
+    },
+    {
+      "civilian": "柔道",
+      "undercover": "跆拳道"
+    },
+    {
+      "civilian": "衣柜",
+      "undercover": "书柜"
+    },
+    {
+      "civilian": "南瓜",
+      "undercover": "冬瓜"
+    },
+    {
+      "civilian": "腊肉",
+      "undercover": "腊肠"
+    },
+    {
+      "civilian": "精算师",
+      "undercover": "分析师"
+    },
+    {
+      "civilian": "血管",
+      "undercover": "神经"
+    },
+    {
+      "civilian": "挖掘机",
+      "undercover": "推土机"
+    },
+    {
+      "civilian": "牛油果",
+      "undercover": "鳄梨"
+    },
+    {
+      "civilian": "入学",
+      "undercover": "毕业"
+    },
+    {
+      "civilian": "镜子",
+      "undercover": "梳妆镜"
+    },
+    {
+      "civilian": "会计",
+      "undercover": "出纳"
+    },
+    {
+      "civilian": "拳击",
+      "undercover": "散打"
+    },
+    {
+      "civilian": "彩虹",
+      "undercover": "极光"
+    },
+    {
+      "civilian": "独木舟",
+      "undercover": "皮划艇"
+    },
+    {
+      "civilian": "筷子",
+      "undercover": "叉子"
+    },
+    {
+      "civilian": "峡湾",
+      "undercover": "海湾"
+    },
+    {
+      "civilian": "大枣",
+      "undercover": "冬枣"
+    },
+    {
+      "civilian": "拳击",
+      "undercover": "泰拳"
+    },
+    {
+      "civilian": "魔芋丝",
+      "undercover": "粉丝"
+    },
+    {
+      "civilian": "拉面",
+      "undercover": "乌冬面"
+    },
+    {
+      "civilian": "三角形",
+      "undercover": "菱形"
+    },
+    {
+      "civilian": "开斋节",
+      "undercover": "古尔邦节"
+    },
+    {
+      "civilian": "理发店",
+      "undercover": "美容院"
+    },
+    {
+      "civilian": "裁缝",
+      "undercover": "服装设计师"
+    },
+    {
+      "civilian": "河豚",
+      "undercover": "鲀鱼"
+    },
+    {
+      "civilian": "榴莲",
+      "undercover": "菠萝蜜"
+    },
+    {
+      "civilian": "洗衣店",
+      "undercover": "干洗店"
+    },
+    {
+      "civilian": "石斑鱼",
+      "undercover": "鲈鱼"
+    },
+    {
+      "civilian": "银河",
+      "undercover": "星云"
+    },
+    {
+      "civilian": "二人转",
+      "undercover": "秧歌"
+    },
+    {
+      "civilian": "信任",
+      "undercover": "信赖"
+    },
+    {
+      "civilian": "木偶戏",
+      "undercover": "皮影戏"
+    },
+    {
+      "civilian": "床头柜",
+      "undercover": "边几"
+    },
+    {
+      "civilian": "体育馆",
+      "undercover": "健身中心"
+    },
+    {
+      "civilian": "豆皮",
+      "undercover": "腐竹"
+    },
+    {
+      "civilian": "七夕",
+      "undercover": "情人节"
+    },
+    {
+      "civilian": "炒饭",
+      "undercover": "炒面"
+    },
+    {
+      "civilian": "马拉松",
+      "undercover": "越野跑"
+    },
+    {
+      "civilian": "无人机",
+      "undercover": "侦察机"
+    },
+    {
+      "civilian": "黑洞",
+      "undercover": "白洞"
+    },
+    {
+      "civilian": "科学家",
+      "undercover": "研究员"
+    },
+    {
+      "civilian": "香瓜",
+      "undercover": "甜瓜"
+    },
+    {
+      "civilian": "乌龟",
+      "undercover": "甲鱼"
+    },
+    {
+      "civilian": "哈利波特",
+      "undercover": "甘道夫"
+    },
+    {
+      "civilian": "蚯蚓",
+      "undercover": "水蛭"
+    },
+    {
+      "civilian": "刺绣",
+      "undercover": "印花"
+    },
+    {
+      "civilian": "晾衣杆",
+      "undercover": "衣帽架"
+    },
+    {
+      "civilian": "降落伞",
+      "undercover": "滑翔翼"
+    },
+    {
+      "civilian": "桂圆",
+      "undercover": "荔枝干"
+    },
+    {
+      "civilian": "棒球帽",
+      "undercover": "渔夫帽"
+    },
+    {
+      "civilian": "螃蟹",
+      "undercover": "龙虾"
+    },
+    {
+      "civilian": "中秋节",
+      "undercover": "月饼节"
+    },
+    {
+      "civilian": "成功",
+      "undercover": "胜利"
+    },
+    {
+      "civilian": "话剧",
+      "undercover": "音乐剧"
+    },
+    {
+      "civilian": "豆腐",
+      "undercover": "豆干"
+    },
+    {
+      "civilian": "码头",
+      "undercover": "港口"
+    },
+    {
+      "civilian": "蕾丝",
+      "undercover": "花边"
+    },
+    {
+      "civilian": "大海",
+      "undercover": "湖泊"
+    },
+    {
+      "civilian": "铜",
+      "undercover": "铝"
+    },
+    {
+      "civilian": "砂锅",
+      "undercover": "铁锅"
+    },
+    {
+      "civilian": "犀牛",
+      "undercover": "河马"
+    },
+    {
+      "civilian": "钟表匠",
+      "undercover": "眼镜师"
+    },
+    {
+      "civilian": "象牙",
+      "undercover": "犀角"
+    },
+    {
+      "civilian": "雪莲果",
+      "undercover": "人参果"
+    },
+    {
+      "civilian": "鞋带",
+      "undercover": "鞋扣"
+    },
+    {
+      "civilian": "扑克",
+      "undercover": "UNO"
+    },
+    {
+      "civilian": "黄花菜",
+      "undercover": "金针菇"
+    },
+    {
+      "civilian": "嘉宝果",
+      "undercover": "树葡萄"
+    },
+    {
+      "civilian": "尖锐",
+      "undercover": "圆润"
+    },
+    {
+      "civilian": "幸福",
+      "undercover": "美满"
+    },
+    {
+      "civilian": "季风",
+      "undercover": "台风"
+    },
+    {
+      "civilian": "军舰",
+      "undercover": "巡逻艇"
+    },
+    {
+      "civilian": "洒水车",
+      "undercover": "清扫车"
+    },
+    {
+      "civilian": "游泳",
+      "undercover": "跳水"
+    },
+    {
+      "civilian": "磁悬浮",
+      "undercover": "高铁"
+    },
+    {
+      "civilian": "面包机",
+      "undercover": "三明治机"
+    },
+    {
+      "civilian": "蜡烛",
+      "undercover": "香薰"
+    },
+    {
+      "civilian": "指甲刀",
+      "undercover": "指甲锉"
+    },
+    {
+      "civilian": "浣熊",
+      "undercover": "小熊猫"
+    },
+    {
+      "civilian": "凸面",
+      "undercover": "凹面"
+    },
+    {
+      "civilian": "年糕",
+      "undercover": "糍粑"
+    },
+    {
+      "civilian": "狼",
+      "undercover": "狐狸"
+    },
+    {
+      "civilian": "电磁炉",
+      "undercover": "燃气灶"
+    },
+    {
+      "civilian": "公鸡",
+      "undercover": "母鸡"
+    },
+    {
+      "civilian": "冻豆腐",
+      "undercover": "嫩豆腐"
+    },
+    {
+      "civilian": "程序员",
+      "undercover": "工程师"
+    },
+    {
+      "civilian": "皮肤",
+      "undercover": "毛发"
+    },
+    {
+      "civilian": "桃子",
+      "undercover": "油桃"
+    },
+    {
+      "civilian": "月饼",
+      "undercover": "蛋黄酥"
+    },
+    {
+      "civilian": "电吹风",
+      "undercover": "直发器"
+    },
+    {
+      "civilian": "快递员",
+      "undercover": "外卖员"
+    },
+    {
+      "civilian": "靴子",
+      "undercover": "马丁靴"
+    },
+    {
+      "civilian": "胸口",
+      "undercover": "腹部"
+    },
+    {
+      "civilian": "芭蕾",
+      "undercover": "现代舞"
+    },
+    {
+      "civilian": "窗帘",
+      "undercover": "百叶窗"
+    },
+    {
+      "civilian": "手球",
+      "undercover": "水球"
+    },
+    {
+      "civilian": "手榴弹",
+      "undercover": "地雷"
+    },
+    {
+      "civilian": "宏观经济学",
+      "undercover": "微观经济学"
+    },
+    {
+      "civilian": "滑冰",
+      "undercover": "滑雪"
+    },
+    {
+      "civilian": "公寓",
+      "undercover": "别墅"
+    },
+    {
+      "civilian": "物理",
+      "undercover": "化学"
+    },
+    {
+      "civilian": "春分",
+      "undercover": "秋分"
+    },
+    {
+      "civilian": "血压",
+      "undercover": "血糖"
+    },
+    {
+      "civilian": "发卡",
+      "undercover": "头箍"
+    },
+    {
+      "civilian": "豆芽",
+      "undercover": "豆苗"
+    },
+    {
+      "civilian": "苦菊",
+      "undercover": "菊苣"
+    },
+    {
+      "civilian": "梳妆台",
+      "undercover": "写字台"
+    },
+    {
+      "civilian": "音响",
+      "undercover": "功放"
+    },
+    {
+      "civilian": "咖啡",
+      "undercover": "奶茶"
+    },
+    {
+      "civilian": "柠檬",
+      "undercover": "青柠"
+    },
+    {
+      "civilian": "花菜",
+      "undercover": "西兰花"
+    },
+    {
+      "civilian": "量子力学",
+      "undercover": "相对论"
+    },
+    {
+      "civilian": "台风",
+      "undercover": "龙卷风"
+    },
+    {
+      "civilian": "建筑师",
+      "undercover": "土木工程师"
+    },
+    {
+      "civilian": "萨克斯",
+      "undercover": "黑管"
+    },
+    {
+      "civilian": "猎豹",
+      "undercover": "美洲豹"
+    },
+    {
+      "civilian": "威士忌",
+      "undercover": "白兰地"
+    },
+    {
+      "civilian": "立方体",
+      "undercover": "球体"
+    },
+    {
+      "civilian": "书包",
+      "undercover": "手提包"
+    },
+    {
+      "civilian": "京剧",
+      "undercover": "越剧"
+    },
+    {
+      "civilian": "城墙",
+      "undercover": "城门"
+    },
+    {
+      "civilian": "梁山伯",
+      "undercover": "祝英台"
+    },
+    {
+      "civilian": "蒸锅",
+      "undercover": "炖锅"
+    },
+    {
+      "civilian": "泡泡",
+      "undercover": "气球"
+    },
+    {
+      "civilian": "短裤",
+      "undercover": "七分裤"
+    },
+    {
+      "civilian": "壁纸",
+      "undercover": "墙布"
+    },
+    {
+      "civilian": "布丁",
+      "undercover": "果冻"
+    },
+    {
+      "civilian": "三角铁",
+      "undercover": "铃鼓"
+    },
+    {
+      "civilian": "体育馆",
+      "undercover": "运动场"
+    },
+    {
+      "civilian": "芥菜",
+      "undercover": "芥蓝"
+    },
+    {
+      "civilian": "无人机",
+      "undercover": "航模"
+    },
+    {
+      "civilian": "丑橘",
+      "undercover": "沃柑"
+    },
+    {
+      "civilian": "冰箱",
+      "undercover": "冰柜"
+    },
+    {
+      "civilian": "望远镜",
+      "undercover": "天文台"
+    },
+    {
+      "civilian": "火腿",
+      "undercover": "培根"
+    },
+    {
+      "civilian": "穿衣镜",
+      "undercover": "化妆镜"
+    },
+    {
+      "civilian": "麻雀",
+      "undercover": "燕子"
+    },
+    {
+      "civilian": "博物馆",
+      "undercover": "美术馆"
+    },
+    {
+      "civilian": "钢笔",
+      "undercover": "签字笔"
+    },
+    {
+      "civilian": "音乐",
+      "undercover": "美术"
+    },
+    {
+      "civilian": "堤坝",
+      "undercover": "水库"
+    },
+    {
+      "civilian": "洗衣机",
+      "undercover": "烘干机"
+    },
+    {
+      "civilian": "失望",
+      "undercover": "绝望"
+    },
+    {
+      "civilian": "轮船",
+      "undercover": "帆船"
+    },
+    {
+      "civilian": "空心菜",
+      "undercover": "油麦菜"
+    },
+    {
+      "civilian": "立春",
+      "undercover": "立秋"
+    },
+    {
+      "civilian": "相声",
+      "undercover": "小品"
+    },
+    {
+      "civilian": "红木",
+      "undercover": "花梨木"
+    },
+    {
+      "civilian": "空间站",
+      "undercover": "太空舱"
+    },
+    {
+      "civilian": "回暖",
+      "undercover": "降温"
+    },
+    {
+      "civilian": "时区",
+      "undercover": "日界线"
+    },
+    {
+      "civilian": "春卷",
+      "undercover": "锅贴"
+    },
+    {
+      "civilian": "皮影",
+      "undercover": "木偶"
+    },
+    {
+      "civilian": "椰子",
+      "undercover": "椰皇"
+    },
+    {
+      "civilian": "主持人",
+      "undercover": "播音员"
+    },
+    {
+      "civilian": "白蛇",
+      "undercover": "青蛇"
+    },
+    {
+      "civilian": "高跟鞋",
+      "undercover": "平底鞋"
+    },
+    {
+      "civilian": "洗手台",
+      "undercover": "浴室柜"
+    },
+    {
+      "civilian": "数独",
+      "undercover": "扫雷"
+    },
+    {
+      "civilian": "平衡车",
+      "undercover": "电动滑板"
+    },
+    {
+      "civilian": "记者",
+      "undercover": "编辑"
+    },
+    {
+      "civilian": "椭圆",
+      "undercover": "长方"
+    },
+    {
+      "civilian": "树懒",
+      "undercover": "考拉"
+    },
+    {
+      "civilian": "春风",
+      "undercover": "秋风"
+    },
+    {
+      "civilian": "尤克里里",
+      "undercover": "夏威夷吉他"
+    },
+    {
+      "civilian": "宙斯",
+      "undercover": "奥丁"
+    },
+    {
+      "civilian": "书法",
+      "undercover": "篆刻"
+    },
+    {
+      "civilian": "骄傲",
+      "undercover": "自豪"
+    },
+    {
+      "civilian": "地毯",
+      "undercover": "地垫"
+    },
+    {
+      "civilian": "沼泽",
+      "undercover": "湿地"
+    },
+    {
+      "civilian": "悲伤",
+      "undercover": "难过"
+    },
+    {
+      "civilian": "北京",
+      "undercover": "上海"
+    },
+    {
+      "civilian": "橙子",
+      "undercover": "柚子"
+    },
+    {
+      "civilian": "航母",
+      "undercover": "驱逐舰"
+    },
+    {
+      "civilian": "鸵鸟",
+      "undercover": "鸸鹋"
+    },
+    {
+      "civilian": "寿司",
+      "undercover": "刺身"
+    },
+    {
+      "civilian": "风筝",
+      "undercover": "竹蜻蜓"
+    },
+    {
+      "civilian": "人力车",
+      "undercover": "黄包车"
+    },
+    {
+      "civilian": "下雨",
+      "undercover": "下雪"
+    },
+    {
+      "civilian": "牌坊",
+      "undercover": "牌坊楼"
+    },
+    {
+      "civilian": "水塔",
+      "undercover": "水厂"
+    },
+    {
+      "civilian": "翠鸟",
+      "undercover": "蜂虎"
+    },
+    {
+      "civilian": "尺子",
+      "undercover": "量角器"
+    },
+    {
+      "civilian": "藕带",
+      "undercover": "莲藕"
+    },
+    {
+      "civilian": "椰子",
+      "undercover": "椰青"
+    },
+    {
+      "civilian": "胸包",
+      "undercover": "腰包"
+    },
+    {
+      "civilian": "手风琴",
+      "undercover": "口琴"
+    },
+    {
+      "civilian": "退休",
+      "undercover": "养老"
+    },
+    {
+      "civilian": "国庆节",
+      "undercover": "劳动节"
+    },
+    {
+      "civilian": "升职",
+      "undercover": "加薪"
+    },
+    {
+      "civilian": "河流",
+      "undercover": "小溪"
+    },
+    {
+      "civilian": "山药",
+      "undercover": "芋头"
+    },
+    {
+      "civilian": "唐僧",
+      "undercover": "如来"
+    },
+    {
+      "civilian": "潜艇",
+      "undercover": "鱼雷"
+    },
+    {
+      "civilian": "宝塔",
+      "undercover": "佛塔"
+    },
+    {
+      "civilian": "飞机",
+      "undercover": "直升机"
+    },
+    {
+      "civilian": "汉堡",
+      "undercover": "三明治"
+    },
+    {
+      "civilian": "乌鸦",
+      "undercover": "喜鹊"
+    },
+    {
+      "civilian": "火山",
+      "undercover": "温泉"
+    },
+    {
+      "civilian": "五角星",
+      "undercover": "六角"
+    },
+    {
+      "civilian": "收费站",
+      "undercover": "服务区"
+    },
+    {
+      "civilian": "警车",
+      "undercover": "军车"
+    },
+    {
+      "civilian": "拖鞋",
+      "undercover": "凉鞋"
+    },
+    {
+      "civilian": "猫",
+      "undercover": "狗"
+    },
+    {
+      "civilian": "外交官",
+      "undercover": "大使"
+    },
+    {
+      "civilian": "爱情片",
+      "undercover": "文艺片"
+    },
+    {
+      "civilian": "游泳池",
+      "undercover": "水上乐园"
+    },
+    {
+      "civilian": "西红柿",
+      "undercover": "圣女果"
+    },
+    {
+      "civilian": "芥兰",
+      "undercover": "菜心"
+    },
+    {
+      "civilian": "小号",
+      "undercover": "长号"
+    },
+    {
+      "civilian": "大提琴",
+      "undercover": "低音提琴"
+    },
+    {
+      "civilian": "孟姜女",
+      "undercover": "白娘子"
+    },
+    {
+      "civilian": "西梅",
+      "undercover": "话梅"
+    },
+    {
+      "civilian": "盾牌",
+      "undercover": "盔甲"
+    },
+    {
+      "civilian": "陨石",
+      "undercover": "陨铁"
+    },
+    {
+      "civilian": "药店",
+      "undercover": "药房"
+    },
+    {
+      "civilian": "感冒",
+      "undercover": "发烧"
+    },
+    {
+      "civilian": "射箭",
+      "undercover": "射击"
+    },
+    {
+      "civilian": "海滩",
+      "undercover": "礁石"
+    },
+    {
+      "civilian": "锣",
+      "undercover": "钹"
+    },
+    {
+      "civilian": "苋菜",
+      "undercover": "红苋菜"
+    },
+    {
+      "civilian": "菱角",
+      "undercover": "荸荠"
+    },
+    {
+      "civilian": "卡车",
+      "undercover": "货车"
+    },
+    {
+      "civilian": "加油站",
+      "undercover": "充电站"
+    },
+    {
+      "civilian": "飞行棋",
+      "undercover": "大富翁"
+    },
+    {
+      "civilian": "耳机",
+      "undercover": "音箱"
+    },
+    {
+      "civilian": "高原",
+      "undercover": "plateau"
+    },
+    {
+      "civilian": "壁炉",
+      "undercover": "暖气片"
+    },
+    {
+      "civilian": "储物箱",
+      "undercover": "收纳盒"
+    },
+    {
+      "civilian": "孙悟空",
+      "undercover": "哪吒"
+    },
+    {
+      "civilian": "水牛",
+      "undercover": "黄牛"
+    },
+    {
+      "civilian": "体温",
+      "undercover": "脉搏"
+    },
+    {
+      "civilian": "雪橇",
+      "undercover": "爬犁"
+    },
+    {
+      "civilian": "怀疑",
+      "undercover": "猜忌"
+    },
+    {
+      "civilian": "冬不拉",
+      "undercover": "热瓦普"
+    },
+    {
+      "civilian": "请假",
+      "undercover": "旷工"
+    },
+    {
+      "civilian": "橡皮",
+      "undercover": "修正带"
+    },
+    {
+      "civilian": "围巾",
+      "undercover": "披肩"
+    },
+    {
+      "civilian": "鼻子",
+      "undercover": "嘴巴"
+    },
+    {
+      "civilian": "调酒师",
+      "undercover": "咖啡师"
+    },
+    {
+      "civilian": "遥控车",
+      "undercover": "遥控飞机"
+    },
+    {
+      "civilian": "大蒜",
+      "undercover": "生姜"
+    },
+    {
+      "civilian": "变形金刚",
+      "undercover": "高达"
+    },
+    {
+      "civilian": "白菜",
+      "undercover": "娃娃菜"
+    },
+    {
+      "civilian": "电源",
+      "undercover": "UPS"
+    },
+    {
+      "civilian": "马戏",
+      "undercover": "杂技"
+    },
+    {
+      "civilian": "苦瓜",
+      "undercover": "丝瓜"
+    },
+    {
+      "civilian": "西瓜",
+      "undercover": "哈密瓜"
+    },
+    {
+      "civilian": "观光车",
+      "undercover": "电瓶车"
+    },
+    {
+      "civilian": "牙齿",
+      "undercover": "舌头"
+    },
+    {
+      "civilian": "眼镜",
+      "undercover": "墨镜"
+    },
+    {
+      "civilian": "牛仔",
+      "undercover": "灯芯绒"
+    },
+    {
+      "civilian": "榻榻米",
+      "undercover": "地台"
+    },
+    {
+      "civilian": "枇杷",
+      "undercover": "黄皮"
+    },
+    {
+      "civilian": "农学家",
+      "undercover": "林学家"
+    },
+    {
+      "civilian": "油条",
+      "undercover": "烧饼"
+    },
+    {
+      "civilian": "牙刷",
+      "undercover": "牙膏"
+    },
+    {
+      "civilian": "闹钟",
+      "undercover": "挂钟"
+    },
+    {
+      "civilian": "企鹅",
+      "undercover": "海鸥"
+    },
+    {
+      "civilian": "溶洞",
+      "undercover": "石窟"
+    },
+    {
+      "civilian": "裙子",
+      "undercover": "连衣裙"
+    },
+    {
+      "civilian": "夜市",
+      "undercover": "集市"
+    },
+    {
+      "civilian": "陶瓷",
+      "undercover": "紫砂"
+    },
+    {
+      "civilian": "笛子",
+      "undercover": "箫"
+    },
+    {
+      "civilian": "英语",
+      "undercover": "法语"
+    },
+    {
+      "civilian": "冰淇淋",
+      "undercover": "雪糕"
+    },
+    {
+      "civilian": "作家",
+      "undercover": "编剧"
+    },
+    {
+      "civilian": "密室逃脱",
+      "undercover": "鬼屋"
+    },
+    {
+      "civilian": "潜水艇",
+      "undercover": "潜水器"
+    },
+    {
+      "civilian": "有机化学",
+      "undercover": "无机化学"
+    },
+    {
+      "civilian": "脱口秀",
+      "undercover": "单口喜剧"
+    },
+    {
+      "civilian": "积木",
+      "undercover": "乐高"
+    },
+    {
+      "civilian": "金",
+      "undercover": "银"
+    },
+    {
+      "civilian": "拼图",
+      "undercover": "七巧板"
+    },
+    {
+      "civilian": "寺庙",
+      "undercover": "道观"
+    },
+    {
+      "civilian": "加湿器",
+      "undercover": "除湿机"
+    },
+    {
+      "civilian": "和服",
+      "undercover": "韩服"
+    },
+    {
+      "civilian": "酸奶",
+      "undercover": "牛奶"
+    },
+    {
+      "civilian": "火烈鸟",
+      "undercover": "朱鹮"
+    },
+    {
+      "civilian": "口袋",
+      "undercover": "暗袋"
+    },
+    {
+      "civilian": "北极",
+      "undercover": "南极"
+    },
+    {
+      "civilian": "腰鼓",
+      "undercover": "堂鼓"
+    },
+    {
+      "civilian": "鳄鱼",
+      "undercover": "扬子鳄"
+    },
+    {
+      "civilian": "蚂蚁",
+      "undercover": "白蚁"
+    },
+    {
+      "civilian": "博物馆",
+      "undercover": "纪念馆"
+    },
+    {
+      "civilian": "项链",
+      "undercover": "吊坠"
+    },
+    {
+      "civilian": "嫦娥",
+      "undercover": "吴刚"
+    },
+    {
+      "civilian": "萝卜",
+      "undercover": "胡萝卜"
+    },
+    {
+      "civilian": "胃",
+      "undercover": "肠"
+    },
+    {
+      "civilian": "冰雹",
+      "undercover": "霜冻"
+    },
+    {
+      "civilian": "快板",
+      "undercover": "评书"
+    },
+    {
+      "civilian": "豌豆",
+      "undercover": "蚕豆"
+    },
+    {
+      "civilian": "竹笋",
+      "undercover": "春笋"
+    },
+    {
+      "civilian": "乌龙茶",
+      "undercover": "大红袍"
+    },
+    {
+      "civilian": "手机",
+      "undercover": "平板"
+    },
+    {
+      "civilian": "青芒",
+      "undercover": "金煌芒"
+    },
+    {
+      "civilian": "钱包",
+      "undercover": "卡包"
+    },
+    {
+      "civilian": "CEO",
+      "undercover": "总裁"
+    },
+    {
+      "civilian": "脚趾",
+      "undercover": "脚跟"
+    },
+    {
+      "civilian": "羡慕",
+      "undercover": "嫉妒"
+    },
+    {
+      "civilian": "攀岩",
+      "undercover": "登山"
+    },
+    {
+      "civilian": "紫色",
+      "undercover": "粉色"
+    },
+    {
+      "civilian": "杏",
+      "undercover": "李子"
+    },
+    {
+      "civilian": "春天",
+      "undercover": "秋天"
+    },
+    {
+      "civilian": "社工",
+      "undercover": "志愿者"
+    },
+    {
+      "civilian": "电风扇",
+      "undercover": "塔扇"
+    },
+    {
+      "civilian": "苹果",
+      "undercover": "梨"
+    },
+    {
+      "civilian": "领带",
+      "undercover": "领结"
+    },
+    {
+      "civilian": "写字楼",
+      "undercover": "办公楼"
+    },
+    {
+      "civilian": "手表",
+      "undercover": "怀表"
+    },
+    {
+      "civilian": "獾",
+      "undercover": "蜜獾"
+    },
+    {
+      "civilian": "钛合金",
+      "undercover": "不锈钢"
+    },
+    {
+      "civilian": "短跑",
+      "undercover": "中长跑"
+    },
+    {
+      "civilian": "火锅",
+      "undercover": "麻辣烫"
+    },
+    {
+      "civilian": "缆车",
+      "undercover": "索道"
+    },
+    {
+      "civilian": "雷达",
+      "undercover": "声呐"
+    },
+    {
+      "civilian": "尼龙",
+      "undercover": "涤纶"
+    },
+    {
+      "civilian": "万用表",
+      "undercover": "示波器"
+    },
+    {
+      "civilian": "善良",
+      "undercover": "仁慈"
+    },
+    {
+      "civilian": "歌手",
+      "undercover": "演员"
+    },
+    {
+      "civilian": "手柄",
+      "undercover": "方向盘"
+    },
+    {
+      "civilian": "粉条",
+      "undercover": "粉丝"
+    },
+    {
+      "civilian": "夏至",
+      "undercover": "冬至"
+    },
+    {
+      "civilian": "三文鱼",
+      "undercover": "金枪鱼"
+    },
+    {
+      "civilian": "植树节",
+      "undercover": "地球日"
+    },
+    {
+      "civilian": "小雪",
+      "undercover": "暴雪"
+    },
+    {
+      "civilian": "油条",
+      "undercover": "麻花"
+    },
+    {
+      "civilian": "K歌",
+      "undercover": "合唱"
+    },
+    {
+      "civilian": "珍珠",
+      "undercover": "玛瑙"
+    },
+    {
+      "civilian": "播客",
+      "undercover": "有声书"
+    },
+    {
+      "civilian": "葡萄",
+      "undercover": "提子"
+    },
+    {
+      "civilian": "超新星",
+      "undercover": "脉冲星"
+    },
+    {
+      "civilian": "牛郎",
+      "undercover": "织女"
+    },
+    {
+      "civilian": "冰川",
+      "undercover": "雪山"
+    },
+    {
+      "civilian": "厨师",
+      "undercover": "面点师"
+    },
+    {
+      "civilian": "熊猫",
+      "undercover": "北极熊"
+    },
+    {
+      "civilian": "特种兵",
+      "undercover": "狙击手"
+    },
+    {
+      "civilian": "小提琴",
+      "undercover": "中提琴"
+    },
+    {
+      "civilian": "火车站",
+      "undercover": "高铁站"
+    },
+    {
+      "civilian": "信号弹",
+      "undercover": "照明弹"
+    },
+    {
+      "civilian": "泼水节",
+      "undercover": "火把节"
+    },
+    {
+      "civilian": "胸针",
+      "undercover": "徽章"
+    },
+    {
+      "civilian": "圆形",
+      "undercover": "方形"
+    },
+    {
+      "civilian": "建筑学",
+      "undercover": "城市规划"
+    },
+    {
+      "civilian": "长颈鹿",
+      "undercover": "骆驼"
+    },
+    {
+      "civilian": "短视频",
+      "undercover": "直播"
+    },
+    {
+      "civilian": "披萨",
+      "undercover": "意面"
+    },
+    {
+      "civilian": "猕猴桃",
+      "undercover": "奇异果"
+    },
+    {
+      "civilian": "炸鸡",
+      "undercover": "炸薯条"
+    },
+    {
+      "civilian": "丝绸",
+      "undercover": "棉麻"
+    },
+    {
+      "civilian": "扫帚",
+      "undercover": "拖把"
+    },
+    {
+      "civilian": "关公",
+      "undercover": "岳飞"
+    },
+    {
+      "civilian": "间歇泉",
+      "undercover": "喷泉"
+    },
+    {
+      "civilian": "煎饼",
+      "undercover": "鸡蛋灌饼"
+    },
+    {
+      "civilian": "水球",
+      "undercover": "花样游泳"
+    },
+    {
+      "civilian": "冰壶",
+      "undercover": "冰球"
+    },
+    {
+      "civilian": "洗车",
+      "undercover": "加油"
+    },
+    {
+      "civilian": "空调",
+      "undercover": "暖风机"
+    },
+    {
+      "civilian": "高尔夫球场",
+      "undercover": "网球场"
+    },
+    {
+      "civilian": "约会",
+      "undercover": "相亲"
+    },
+    {
+      "civilian": "温室",
+      "undercover": "大棚"
+    },
+    {
+      "civilian": "刺猬",
+      "undercover": "豪猪"
+    },
+    {
+      "civilian": "显示器",
+      "undercover": "曲面屏"
+    },
+    {
+      "civilian": "海马",
+      "undercover": "海龙"
+    },
+    {
+      "civilian": "老虎",
+      "undercover": "狮子"
+    },
+    {
+      "civilian": "塑料",
+      "undercover": "橡胶"
+    },
+    {
+      "civilian": "人心果",
+      "undercover": "鸡蛋果"
+    },
+    {
+      "civilian": "龙抬头",
+      "undercover": "社日"
+    },
+    {
+      "civilian": "暗物质",
+      "undercover": "暗能量"
+    },
+    {
+      "civilian": "龙卷风",
+      "undercover": "飓风"
+    },
+    {
+      "civilian": "T恤",
+      "undercover": "衬衫"
+    },
+    {
+      "civilian": "猫头鹰",
+      "undercover": "夜莺"
+    },
+    {
+      "civilian": "狼人杀",
+      "undercover": "剧本杀"
+    },
+    {
+      "civilian": "冲浪",
+      "undercover": "滑板"
+    },
+    {
+      "civilian": "咖啡店",
+      "undercover": "奶茶店"
+    },
+    {
+      "civilian": "花盆架",
+      "undercover": "花架"
+    },
+    {
+      "civilian": "面试",
+      "undercover": "笔试"
+    },
+    {
+      "civilian": "隧道",
+      "undercover": "大桥"
+    },
+    {
+      "civilian": "鱼缸",
+      "undercover": "水族箱"
+    },
+    {
+      "civilian": "圣诞节",
+      "undercover": "元旦"
+    },
+    {
+      "civilian": "烤箱",
+      "undercover": "微波炉"
+    },
+    {
+      "civilian": "墨镜",
+      "undercover": "近视镜"
+    },
+    {
+      "civilian": "餐桌",
+      "undercover": "书桌"
+    },
+    {
+      "civilian": "腊八节",
+      "undercover": "小年"
+    },
+    {
+      "civilian": "台灯",
+      "undercover": "落地灯"
+    },
+    {
+      "civilian": "龙",
+      "undercover": "凤凰"
+    },
+    {
+      "civilian": "擀面杖",
+      "undercover": "揉面垫"
+    },
+    {
+      "civilian": "蟋蟀",
+      "undercover": "蝈蝈"
+    },
+    {
+      "civilian": "地震",
+      "undercover": "海啸"
+    },
+    {
+      "civilian": "架子鼓",
+      "undercover": "定音鼓"
+    },
+    {
+      "civilian": "沙拉",
+      "undercover": "凉拌菜"
+    },
+    {
+      "civilian": "白色",
+      "undercover": "米色"
+    },
+    {
+      "civilian": "图书馆",
+      "undercover": "书店"
+    },
+    {
+      "civilian": "细雨",
+      "undercover": "暴雨"
+    },
+    {
+      "civilian": "双簧管",
+      "undercover": "巴松管"
+    },
+    {
+      "civilian": "水上飞机",
+      "undercover": "两栖飞机"
+    },
+    {
+      "civilian": "模特",
+      "undercover": "网红"
+    },
+    {
+      "civilian": "女娲",
+      "undercover": "伏羲"
+    },
+    {
+      "civilian": "琥珀",
+      "undercover": "蜜蜡"
+    },
+    {
+      "civilian": "花瓶",
+      "undercover": "摆件"
+    },
+    {
+      "civilian": "普洱",
+      "undercover": "碧螺春"
+    },
+    {
+      "civilian": "咖喱",
+      "undercover": "沙茶"
+    },
+    {
+      "civilian": "滑翔机",
+      "undercover": "滑翔伞"
+    },
+    {
+      "civilian": "芹菜",
+      "undercover": "西芹"
+    },
+    {
+      "civilian": "肥皂",
+      "undercover": "洗手液"
+    },
+    {
+      "civilian": "邮局",
+      "undercover": "快递站"
+    },
+    {
+      "civilian": "理发师",
+      "undercover": "造型师"
+    },
+    {
+      "civilian": "膝盖",
+      "undercover": "脚踝"
+    },
+    {
+      "civilian": "青提",
+      "undercover": "红提"
+    },
+    {
+      "civilian": "近视",
+      "undercover": "远视"
+    },
+    {
+      "civilian": "手表",
+      "undercover": "手环"
+    },
+    {
+      "civilian": "橄榄",
+      "undercover": "余甘子"
+    },
+    {
+      "civilian": "消防站",
+      "undercover": "警察局"
+    },
+    {
+      "civilian": "机场",
+      "undercover": "航站楼"
+    },
+    {
+      "civilian": "诚实",
+      "undercover": "坦率"
+    },
+    {
+      "civilian": "电工",
+      "undercover": "焊工"
+    },
+    {
+      "civilian": "考古学",
+      "undercover": "人类学"
+    },
+    {
+      "civilian": "气垫船",
+      "undercover": "水翼船"
+    },
+    {
+      "civilian": "椅子",
+      "undercover": "凳子"
+    },
+    {
+      "civilian": "精卫",
+      "undercover": "夸父"
+    },
+    {
+      "civilian": "钢琴",
+      "undercover": "电子琴"
+    },
+    {
+      "civilian": "小笼包",
+      "undercover": "生煎包"
+    },
+    {
+      "civilian": "吹风机",
+      "undercover": "卷发棒"
+    },
+    {
+      "civilian": "自由泳",
+      "undercover": "蛙泳"
+    },
+    {
+      "civilian": "潮汐",
+      "undercover": "洋流"
+    },
+    {
+      "civilian": "斑马",
+      "undercover": "驴"
+    },
+    {
+      "civilian": "鼠标",
+      "undercover": "键盘"
+    },
+    {
+      "civilian": "战争片",
+      "undercover": "谍战片"
+    },
+    {
+      "civilian": "耳环",
+      "undercover": "耳钉"
+    },
+    {
+      "civilian": "红鹤",
+      "undercover": "白鹭"
+    },
+    {
+      "civilian": "流星",
+      "undercover": "陨石"
+    },
+    {
+      "civilian": "路由器",
+      "undercover": "交换机"
+    },
+    {
+      "civilian": "韭菜",
+      "undercover": "蒜苗"
+    },
+    {
+      "civilian": "琵琶",
+      "undercover": "柳琴"
+    },
+    {
+      "civilian": "医学",
+      "undercover": "药学"
+    },
+    {
+      "civilian": "白酒",
+      "undercover": "伏特加"
+    },
+    {
+      "civilian": "小说",
+      "undercover": "散文"
+    },
+    {
+      "civilian": "纸巾",
+      "undercover": "湿巾"
+    },
+    {
+      "civilian": "数学",
+      "undercover": "语文"
+    },
+    {
+      "civilian": "有轨电车",
+      "undercover": "无轨电车"
+    },
+    {
+      "civilian": "举重",
+      "undercover": "健美"
+    },
+    {
+      "civilian": "保龄球",
+      "undercover": "掷球"
+    },
+    {
+      "civilian": "牦牛",
+      "undercover": "野牛"
+    },
+    {
+      "civilian": "瑜伽",
+      "undercover": "普拉提"
+    },
+    {
+      "civilian": "希望",
+      "undercover": "期望"
+    },
+    {
+      "civilian": "电池",
+      "undercover": "蓄电池"
+    },
+    {
+      "civilian": "珊瑚礁",
+      "undercover": "暗礁"
+    },
+    {
+      "civilian": "行李箱",
+      "undercover": "旅行袋"
+    },
+    {
+      "civilian": "仰泳",
+      "undercover": "蝶泳"
+    },
+    {
+      "civilian": "香椿",
+      "undercover": "椿芽"
+    },
+    {
+      "civilian": "沙子",
+      "undercover": "黏土"
+    },
+    {
+      "civilian": "胶带",
+      "undercover": "胶水"
+    },
+    {
+      "civilian": "木头",
+      "undercover": "竹子"
+    },
+    {
+      "civilian": "莴笋",
+      "undercover": "生菜"
+    },
+    {
+      "civilian": "太阳",
+      "undercover": "恒星"
+    },
+    {
+      "civilian": "马桶",
+      "undercover": "蹲便器"
+    },
+    {
+      "civilian": "平原",
+      "undercover": "盆地"
+    },
+    {
+      "civilian": "蕨菜",
+      "undercover": "薇菜"
+    },
+    {
+      "civilian": "天鹅",
+      "undercover": "鸳鸯"
+    },
+    {
+      "civilian": "摔跤",
+      "undercover": "柔术"
+    },
+    {
+      "civilian": "纪录片",
+      "undercover": "综艺"
+    },
+    {
+      "civilian": "折叠桌",
+      "undercover": "折叠椅"
+    },
+    {
+      "civilian": "鲸鱼",
+      "undercover": "海豚"
+    },
+    {
+      "civilian": "下元节",
+      "undercover": "寒衣节"
+    },
+    {
+      "civilian": "衣架",
+      "undercover": "晾衣杆"
+    },
+    {
+      "civilian": "饼干",
+      "undercover": "曲奇"
+    },
+    {
+      "civilian": "玉米",
+      "undercover": "甜玉米"
+    },
+    {
+      "civilian": "婚纱",
+      "undercover": "礼服"
+    },
+    {
+      "civilian": "代数",
+      "undercover": "几何"
+    },
+    {
+      "civilian": "摄影",
+      "undercover": "摄像"
+    },
+    {
+      "civilian": "拖拉机",
+      "undercover": "收割机"
+    },
+    {
+      "civilian": "儿童节",
+      "undercover": "青年节"
+    },
+    {
+      "civilian": "自行车",
+      "undercover": "三轮车"
+    },
+    {
+      "civilian": "迟到",
+      "undercover": "早退"
+    },
+    {
+      "civilian": "生物",
+      "undercover": "地理"
+    },
+    {
+      "civilian": "森林",
+      "undercover": "草原"
+    },
+    {
+      "civilian": "摄影师",
+      "undercover": "摄像师"
+    },
+    {
+      "civilian": "毕业",
+      "undercover": "开学"
+    },
+    {
+      "civilian": "心理学",
+      "undercover": "社会学"
+    },
+    {
+      "civilian": "友谊",
+      "undercover": "友情"
+    },
+    {
+      "civilian": "木匠",
+      "undercover": "瓦匠"
+    },
+    {
+      "civilian": "荔枝",
+      "undercover": "龙眼"
+    },
+    {
+      "civilian": "桌子",
+      "undercover": "茶几"
+    },
+    {
+      "civilian": "粗糙",
+      "undercover": "光滑"
+    },
+    {
+      "civilian": "星星",
+      "undercover": "流星"
+    },
+    {
+      "civilian": "智慧",
+      "undercover": "聪明"
+    },
+    {
+      "civilian": "餐厅",
+      "undercover": "食堂"
+    },
+    {
+      "civilian": "黑加仑",
+      "undercover": "红加仑"
+    },
+    {
+      "civilian": "财神",
+      "undercover": "福禄寿"
+    },
+    {
+      "civilian": "钟乳石",
+      "undercover": "石笋"
+    },
+    {
+      "civilian": "古镇",
+      "undercover": "古城"
+    },
+    {
+      "civilian": "出租车",
+      "undercover": "网约车"
+    },
+    {
+      "civilian": "土豆",
+      "undercover": "红薯"
+    },
+    {
+      "civilian": "青椒",
+      "undercover": "彩椒"
+    },
+    {
+      "civilian": "谎言",
+      "undercover": "欺骗"
+    },
+    {
+      "civilian": "蟒蛇",
+      "undercover": "眼镜蛇"
+    },
+    {
+      "civilian": "房车",
+      "undercover": "拖挂车"
+    },
+    {
+      "civilian": "地图",
+      "undercover": "指南针"
+    },
+    {
+      "civilian": "草原",
+      "undercover": "牧场"
+    },
+    {
+      "civilian": "高温",
+      "undercover": "低温"
+    },
+    {
+      "civilian": "衬里",
+      "undercover": "内衬"
+    },
+    {
+      "civilian": "神秘果",
+      "undercover": "奇迹果"
+    },
+    {
+      "civilian": "雨伞",
+      "undercover": "阳伞"
+    }
   ]
 }

@@ -35,7 +35,12 @@ who_is_undercover/
 cd who_is_undercover
 pip install -r requirements.txt
 ```
-
+从 Python 3.11 开始，Debian/Ubuntu 等发行版将系统 Python 标记为"外部管理"，禁止直接用 pip 全局安装包，可以使用以下命令强制安装依赖。
+```bash
+cd who_is_undercover
+pip install -r requirements.txt --break-system-packages
+```
+也可以使用虚拟环境安装。
 ### 3. 启动服务
 
 ```bash
@@ -99,3 +104,5 @@ python app.py
 - 游戏开始后新玩家无法加入
 - 所有玩家需在同一网络环境下（局域网）或通过公网访问同一服务器
 - 如需公网访问，可使用 ngrok 等内网穿透工具：`ngrok http 5000`
+### Bug反馈
+发现Bug可以发邮箱给huangjiakai14@oulook.com

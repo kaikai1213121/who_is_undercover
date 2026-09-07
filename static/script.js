@@ -154,7 +154,7 @@ socket.on('game_update', (data) => {
     const state = data.state;
 
     if (state === 'lobby') {
-        showView('lobby');
+        showView('waiting');
         renderPlayerList(playerListEl, data.players);
 
     } else if (state === 'waiting') {
